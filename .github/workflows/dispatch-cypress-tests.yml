@@ -1,6 +1,5 @@
 name: Dispatch Cypress Tests
 on:
-  #event
   pull_request:
     types: [opened, synchronize]
 
