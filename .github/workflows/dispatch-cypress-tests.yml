@@ -1,5 +1,4 @@
 name: Dispatch Cypress Tests
-#config workflow
 on:
   pull_request:
     types: [opened, synchronize]
