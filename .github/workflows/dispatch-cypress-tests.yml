@@ -1,5 +1,4 @@
 name: Dispatch Cypress Tests
-#config workflow
 on:
   pull_request:
     types: [opened, synchronize]
@@ -12,6 +11,6 @@ jobs:
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token ${{ secrets.TOKEN_GITHUB }}" \
             https://api.github.com/repos/AOURAGHLoubnaCGI/CGI-Demo-Tests/dispatches \
             -d '{"event_type":"run-cypress-tests"}'
