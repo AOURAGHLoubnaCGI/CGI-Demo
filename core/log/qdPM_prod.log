@@ -1,2 +1,8 @@
 May 24 06:01:25 symfony [err] {sfError404Exception} Action "api/index" does not exist.
 Jun 11 17:51:21 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/api.php" (/).
+Jun 13 09:59:05 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
+Jun 13 09:59:07 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
+Jun 13 09:59:52 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
+Jun 13 09:59:54 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
+Jun 24 06:58:19 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
+Jun 24 06:58:20 symfony [err] {sfError404Exception} Action "template/plugins" does not exist.
